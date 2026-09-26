@@ -22,7 +22,7 @@ Eight pure Chinese sprangletop frames were sown on June 11, 2025; 15 rice and 15
 Imaging for all batches was performed at the critical 3-4 leaf seedling stage for early weed detection. Batch 1 and Batch 2 serve as training validation sets for preprocessing comparison, feature selection and model tuning. Batch 3 acts as a fully independent cross date test set to evaluate model generalization. The manually controlled plot design guarantees accurate species labels while preserving real world outdoor remote sensing noise, supporting systematic assessment of the complete weed recognition workflow.
 
 ## Workflow & How to Reproduce
-### Background pixel removal: Run '''Background pixel removal.ipynb'''
+### Background pixel removal: Run `Background pixel removal.ipynb`
 Manually delineate plot regions, compute SAVI index, discard pixels where SAVI <0.36 (nonvegetation background pixels). Output clean vegetation pixel dataset.
 ### Data balancing: Run ‘Data balancing.ipynb’
 Apply ROS, Kmeans stratified undersampling, CSMOTE resampling. Each class balanced to 1000 training samples. Resampling only applied to modeldevelopment set (Batch1+Batch2). Batch3 independent test set keeps original sample distribution without resampling.
