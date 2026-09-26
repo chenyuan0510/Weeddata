@@ -9,6 +9,8 @@ Batch 1 dataset: [Quark Batch1](https://pan.quark.cn/s/3b7a9eae33e3)
 Batch 2 dataset: [Quark Batch2](https://pan.quark.cn/s/13fc4560e71e)
 Batch 3 dataset: [Quark Batch3](https://pan.quark.cn/s/120b7309ea9d)
 
+The label positions corresponding to each batch of data are stored in the `Lable positions corresponding to each batch of dat.docx` file.
+
 ### Batch 1 Setup
 Four pure Chinese sprangletop frames were sown on April 14, 2025. 15 pure rice frames and 15 pure barnyard grass frames were added on April 30. Three equal ratio two compartment mixed plots and two six compartment interlaced mixed plots were built to simulate natural crop weed coexistence. UAV hyperspectral data were collected on May 13 at the healthy 3-4 leaf seedling stage.
 
